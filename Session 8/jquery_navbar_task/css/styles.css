@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    background-color: aliceblue;
+    width: 100%;
+}
+.flex{
+    display: flex;
+}
+ul li{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#london{
+    background-color: rgb(198, 202, 205);
+}
+#city{
+    padding-left: 40px;
+}
+h1{
+    font-size: 24px;
+}
