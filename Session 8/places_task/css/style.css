@@ -1,0 +1,80 @@
+.outer{
+    padding:10px 50px;
+}
+#places >div {
+    cursor: pointer;
+}
+.modal{
+    max-width: 900px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0;
+    position: absolute;
+    display: none;
+}
+.modal-title{
+    font-weight:600;
+    font-size:1.3rem;
+}
+.modal a.close-modal {
+    background-image: none ;
+}
+.modal i{
+    position: absolute;
+    top: 0;
+    right:0;
+    margin: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    padding: 2px 5px;
+}
+.footer-color{
+    background-color: #17a6b6;
+}
+.footer-color-text{
+    color: #17a6b6 ;
+}
+.title{
+    color:#7bbac6;
+    font-weight: 100;
+}
+.subtitle{
+    font-size:16px;
+}
+.header-color{
+    color:#6bb5c0;
+}
+.back-light{
+    background-color: #f3f3f3;
+}
+.text-color{
+    color: #757575;
+}
+.subtext{
+    font-size:14px;
+}
+.date-text{
+    font-size:12px;
+}
+
+.footer-text{
+    font-size: 13px !important;
+}
+.icon-size{
+    font-size:18px;
+}
+.env{
+    color: gray !important;
+}
+footer{
+    padding:30px 55px!important; 
+}
+::-webkit-input-placeholder {
+    font-size: 14px;
+ }
+ 
+
