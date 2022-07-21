@@ -4,6 +4,9 @@
 #places >div {
     cursor: pointer;
 }
+a{
+    text-decoration: none;
+}
 .modal{
     max-width: 900px;
     height: 400px;
