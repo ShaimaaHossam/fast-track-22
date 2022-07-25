@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+  <title>Portfolio Task</title>
+</head>
+
+<body>
+  <section id="navbar" class="mb-5 ">
+    <i class="fa-solid fa-bars color-gray ms-4 mt-1 d-md-none"></i>
+    <ul class=" fw-bold color-gray nav d-none d-md-flex">
+      <li class="me-4 py-1"><a>Home</a></li>
+      <li class="me-4 py-1 border-bottom border-dark"><a>About</a></li>
+      <li class="me-4 py-1"><a>Skills</a></li>
+      <li class="me-4 py-1"><a>Experiences</a></li>
+      <li class="me-4 py-1"><a>Portfolio</a></li>
+      <li class="me-4 py-1"><a>Pricing</a></li>
+      <li class="me-4 py-1"><a>Blog</a></li>
+      <li class="me-4 py-1"><a>Contact</a></li>
+    </ul>
+  </section>
+
+  <div class="full-content">
+    <section id="profile" class="fluid-container d-flex flex-wrap profile justify-content-around">
+      <div class="profile-img-container order-md-2 m-auto">
+        <div class="p-3 rounded-circle bg-gray w-100  bg-lighter-gray">
+          <div class="p-3 rounded-circle w-100 bg-gray">
+            <img class="rounded-circle w-100" src="./assets/image.jpg" alt="profile">
+          </div>
+        </div>
+      </div>
+      <div class="profile-text-container m-auto">
+        <span class="profile-green-label text-white fw-bold">Hello, I'm</span>
+        <p class="h2 color-dark-gray fw-bold mt-3 mb-2">Alex Johnson</p>
+        <p class="color-dark-gray fw-bold mt-2 mb-4">Product Designer</p>
+
+        <div class="profile-contact">
+          <div class="d-flex">
+            <i class="fa-solid fa-envelope color-dark-gray me-3 mt-1"></i> getemail@email.com
+          </div>
+          <div class="d-flex mt-2">
+            <i class="fa-solid fa-phone d-block me-3 mt-1"></i> +12 986 987 7876
+          </div>
+          <div class="d-flex mt-2">
+            <i class="fa-solid fa-location-dot me-3 mt-1"></i> 37, Pollstand, New York, United States
+          </div>
+        </div>
+
+        <div
+          class="profile-social-media d-flex flex-wrap color-dark-gray justify-content-center justify-content-md-start">
+          <i class="fa-brands fa-facebook-f ms-3 me-4"></i>
+          <i class="fa-brands fa-twitter me-4"></i>
+          <i class="fa-brands fa-github me-4"></i>
+          <i class="fa-brands fa-dribbble me-4"></i>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="about" class="fluid-container px-5 d-flex flex-wrap justify-content-center">
+      <div class="col-lg-4 about-img-container me-5">
+        <img class="w-100" src="./assets/ab-img.png" alt="">
+      </div>
+      <div class="col-lg-5 my-auto fluid-container ms-5 about-text-container">
+        <p class="h2 mb-3 color-dark-gray fw-bold">About Me</p>
+        <p class="text">Hello, I'm a Patrick, web-developer based in Paris. I have rich experience in web site design &
+          building and customization. Also I am good at</p>
+        <div class="d-flex skills-container color-gray mt-4 flex-wrap mb-4">
+          <p class="box me-3">php</p>
+          <p class="box me-4">html</p>
+          <p class="box me-4">css</p>
+          <p class="box me-4">php</p>
+          <p class="box me-4">wordpress</p>
+          <p class="box me-4">React</p>
+          <p class="box me-4">Javascript</p>
+        </div>
+        <a class=" download fw-bold px-4 py-2 text-white">
+          Download CV
+          <i class="fa-solid ms-2 fa-download"></i>
+        </a>
+      </div>
+    </section>
+
+    <section id="job" class="whatido color-dark-gray fluid-container">
+      <p class="h2 text-center mb-5">What I do</p>
+
+      <div class="row cards-container">
+        <div class="col-lg-4">
+          <div class="cards px-4 py-4">
+            <i class="fa-solid fa-bullseye mb-2 color-bullseye"></i>
+            <p class="fw-bold">UI Design</p>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto est omnis ratione. Sint
+              sunt saepe voluptates ullam quas cumque dignissimos.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="cards px-4 py-4">
+            <i class="fa-solid fa-code color-code mb-2"></i>
+            <p class="fw-bold">Web Development</p>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto est omnis ratione. Sint
+              sunt saepe voluptates ullam quas cumque dignissimos.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="cards px-4 py-4">
+            <i class="fa-solid fa-mobile-screen color-square mb-2"></i>
+            <p class="fw-bold">Web Development</p>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto est omnis ratione. Sint
+              sunt saepe voluptates ullam quas cumque dignissimos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="fluid-container skills-section color-dark-gray">
+      <div class="d-md-flex justify-content-around flex-wrap">
+        <div class="technical-skills">
+          <p class="h4 mb-4">Technical skills</p>
+          <div class="skill-container mb-2 position-relative w-100">
+            <div class="d-flex justify-content-between">
+              <p class="text">Javascript</p>
+              <p>86%</p>
+            </div>
+            <div class="skill-back position-absolute bottom-0"></div>
+            <div class="skill-front-1 position-absolute bottom-0"></div>
+          </div>
+          <div class="skill-container mb-2 position-relative w-100">
+            <div class="d-flex justify-content-between">
+              <p class="text">Java</p>
+              <p>46%</p>
+            </div>
+            <div class="skill-back position-absolute bottom-0"></div>
+            <div class="skill-front-2 position-absolute bottom-0"></div>
+          </div>
+          <div class="skill-container mb-2 position-relative w-100">
+            <div class="d-flex justify-content-between">
+              <p class="text">Python</p>
+              <p>38%</p>
+            </div>
+            <div class="skill-back position-absolute bottom-0"></div>
+            <div class="skill-front-3 position-absolute bottom-0"></div>
+          </div>
+          <div class="skill-container mb-2 position-relative w-100">
+            <div class="d-flex justify-content-between">
+              <p class="text">PHP</p>
+              <p>17%</p>
+            </div>
+            <div class="skill-back position-absolute bottom-0"></div>
+            <div class="skill-front-3 position-absolute bottom-0"></div>
+          </div>
+          <div class="skill-container mb-2 position-relative w-100">
+            <div class="d-flex justify-content-between">
+              <p class="text">PHP</p>
+              <p>17%</p>
+            </div>
+            <div class="skill-back position-absolute bottom-0"></div>
+            <div class="skill-front-3 position-absolute bottom-0"></div>
+          </div>
+        </div>
+        <div class="professional-skills fluid-container">
+          <p class="h4 mb-4">Professional skills</p>
+          <div class="row">
+            <div class="circle-progress col-md-6">
+              <div class="percent">
+                <svg class="skill-1">
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="number">
+                  <p>95%</p>
+                </div>
+              </div>
+              <h2 class="text">Communication</h2>
+            </div>
+            <div class="circle-progress col-md-6">
+              <div class="percent">
+                <svg class="skill-2">
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="number">
+                  <p>55%</p>
+                </div>
+              </div>
+              <h2 class="text">Communication</h2>
+            </div>
+            <div class="circle-progress col-md-6">
+              <div class="percent">
+                <svg class="skill-3">
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="number">
+                  <p>86%</p>
+                </div>
+              </div>
+              <h2 class="text">Communication</h2>
+            </div>
+            <div class="circle-progress col-md-6">
+              <div class="percent">
+                <svg class="skill-4">
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="number">
+                  <p>60%</p>
+                </div>
+              </div>
+              <h2 class="text">Communication</h2>
+            </div>
+          </div>
+
+
+        </div>
+    </section>
+
+    <section id="education" class="fluid-container color-dark-gray px-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="cards-container">
+            <p class="h4 mb-5">Education</p>
+
+            <div class="cards px-4 py-4 mb-4">
+              <p class="fw-bold m-0">Art & Multimedia from <span class="color-green">Oxford University</span></p>
+              <p class="text color-green fw-bold mx-0 mb-0 mt-2">2005 - 2008</p>
+              <p class="text mt-3 mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque necessitatibus
+                quod commodi velit distinctio magni voluptatibus assumenda illum. Error, magnam.</p>
+            </div>
+            <div class="cards px-4 py-4 mb-4">
+              <p class="fw-bold m-0">Art & Multimedia from <span class="color-green">Oxford University</span></p>
+              <p class="text color-green fw-bold mx-0 mb-0 mt-2">2005 - 2008</p>
+              <p class="text mt-3 mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque necessitatibus
+                quod commodi velit distinctio magni voluptatibus assumenda illum. Error, magnam.</p>
+            </div>
+            <div class="cards px-4 py-4">
+              <p class="fw-bold m-0">Art & Multimedia from <span class="color-green">Oxford University</span></p>
+              <p class="text color-green fw-bold mx-0 mb-0 mt-2">2005 - 2008</p>
+              <p class="text mt-3 mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque necessitatibus
+                quod commodi velit distinctio magni voluptatibus assumenda illum. Error, magnam.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 work-experience">
+          <div class="cards-container">
+            <p class="h4 mb-5">Work Experience</p>
+
+            <div class="cards px-4 py-3 mb-4">
+              <p class="fw-bold m-0">UI/UX Designer <span class="color-green">ironSketch</span></p>
+              <p class="text color-green fw-bold mx-0 mb-0 mt-2">2005 - 2008</p>
+              <p class="text mt-3 mb-1">Responsibility:
+              <ul class="bullet-list">
+                <li>Validate CSS</li>
+                <li>Project Management</li>
+              </ul>
+              </p>
+            </div>
+            <div class="cards px-4 py-3 mb-4">
+              <p class="fw-bold m-0">UI/UX Designer <span class="color-green">ironSketch</span></p>
+              <p class="text color-green fw-bold mx-0 mb-0 mt-2">2005 - 2008</p>
+              <p class="text mt-3 mb-1">Responsibility:
+              <ul class="bullet-list">
+                <li>Validate CSS</li>
+                <li>Project Management</li>
+              </ul>
+              </p>
+            </div>
+            <div class="cards px-4 py-3">
+              <p class="fw-bold m-0">UI/UX Designer <span class="color-green">ironSketch</span></p>
+              <p class="text color-green fw-bold mx-0 mb-0 mt-2">2005 - 2008</p>
+              <p class="text mt-3 mb-2">Responsibility:
+              <ul class="bullet-list">
+                <li>Validate CSS</li>
+                <li>Project Management</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="recentportfolio" class="fluid-container color-dark-gray px-5">
+      <p class="h4 text-center mb-1">Recent Portfolio</p>
+      <ul class="d-flex flex-wrap justify-content-center mb-4 mt-4 portfolio">
+        <li class="me-4 py-2">All categories</li>
+        <li class="me-4 py-2">Web Design</li>
+        <li class="me-4 py-2">Branding</li>
+        <li class="me-4 py-2">Mockups</li>
+        <li class="me-4 py-2 portfolio-selected-link">Photography</li>
+      </ul>
+
+      <div class="row mt-4 ">
+        <div class="col-lg-4 py-4 col-md-6 portfolio-card">
+          <img src="./assets/bag.jpg" class="w-100" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 py-4 portfolio-card">
+          <img src="./assets/bag.jpg" class="w-100" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 py-4 portfolio-card">
+          <img src="./assets/bag.jpg" class="w-100" alt="">
+        </div>
+      </div>
+
+    </section>
+
+    <section id="pricing" class="fluid-container color-dark-gray px-5">
+      <p class="h4 text-center mb-5">Pricing Table</p>
+      <div class="cards-container gap-4 d-md-flex flex-wrap justify-content-center">
+        <div class="cards col-lg-3 px-2  text-center color-dark-gray py-4">
+          <i class="fa-regular big-icon my-3 color-green fa-calendar-days"></i>
+          <p class="h5">Full-time work</p>
+          <p class="text">I am available for full time</p>
+          <p class="price fw-bold color-green">$1500</p>
+          <p class="text my-2">Web Development</p>
+          <p class="text my-2">Advertising</p>
+          <p class="text my-2">Game Development</p>
+          <p class="text mb-3 mt-2">Music Writing</p>
+          <div class="mt-4 mb-3">
+            <a class="text-white green-bg hire-me px-3 py-1 fw-bold">Hire Me</a>
+          </div>
+        </div>
+        <div class="cards col-lg-3 px-2 text-center color-dark-gray py-4">
+          <i class="fa-solid fa-file big-icon my-3 color-green"></i>
+          <p class="h5">Fixed Price Project</p>
+          <p class="text">I am available for fixed roles</p>
+          <p class="price fw-bold color-green">$1500</p>
+          <p class="text my-2">Web Development</p>
+          <p class="text my-2">Advertising</p>
+          <p class="text my-2">Game Development</p>
+          <p class="text mb-3 mt-2">Music Writing</p>
+          <div class="mt-4 mb-3">
+            <a class="text-white green-bg hire-me px-3 py-1 fw-bold">Hire Me</a>
+          </div>
+        </div>
+        <div class="cards col-lg-3 px-2 text-center color-dark-gray py-4">
+          <i class="fa-solid fa-hourglass big-icon my-3 color-green"></i>
+          <p class="h5">Hourly work</p>
+          <p class="text">I am available for hourly projects</p>
+          <p class="price fw-bold color-green">$1500</p>
+          <p class="text my-2">Web Development</p>
+          <p class="text my-2">Advertising</p>
+          <p class="text my-2">Game Development</p>
+          <p class="text mb-3 mt-2">Music Writing</p>
+          <div class="mt-4 mb-3">
+            <a class="text-white green-bg hire-me px-3 py-1 fw-bold">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="featured" class="fluid-container color-dark-gray">
+      <p class="h4 text-center mb-5">Featured Posts</p>
+      <div class="d-flex flex-wrap justify-content-center gap-4">
+        <div class="cards col-lg-3 px-0">
+          <img class="w-100" src="./assets/b-3.png" alt="">
+          <p class="h5 mx-4 mt-4 mb-3">A life without the daily traffic jams</p>
+          <p class="mx-4 text fw-bold">Post on <span class="color-green">24.11.19</span> By <span
+              class="color-green">ThemeSpiders</span></p>
+          <p class="mx-4 text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, animi!</p>
+          <div class="mx-4 mb-4"><a class="color-green fw-bold text read-more">Read more</a></div>
+        </div>
+        <div class="cards col-lg-3 px-0">
+          <img class="w-100" src="./assets/b-2.png" alt="">
+          <p class="h5 mx-4 mt-4 mb-3">Proportion is what's really needed</p>
+          <p class="mx-4 text fw-bold">Post on <span class="color-green">24.11.19</span> By <span
+              class="color-green">ThemeSpiders</span></p>
+          <p class="mx-4 text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, animi!</p>
+          <div class="mx-4 mb-4"><a class="color-green fw-bold text read-more">Read more</a></div>
+        </div>
+        <div class="cards col-lg-3 px-0">
+          <img class="w-100" src="./assets/b-1.png" alt="">
+          <p class="h5 mx-4 mt-4 mb-3">Mounts of paper work to remember the way</p>
+          <p class="mx-4 text fw-bold">Post on <span class="color-green">24.11.19</span> By <span
+              class="color-green">ThemeSpiders</span></p>
+          <p class="mx-4 text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, animi!</p>
+          <div class="mx-4 mb-4"><a class="color-green fw-bold text read-more">Read more</a></div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section id="clientreviews">
+      <p class="h4 text-center mb-5">Client Reviews</p>
+      <div class="owl-carousel owl-theme">
+        <div class="item client  text-center py-4 px-4">
+          <div class="client-img-container">
+            <img class="" src="./assets/client.jpg" alt="">
+          </div>
+          <p class="text my-4">"Absolutely wonderful! I'm completely blown away. The very best. I was amazed at the
+            quality.</p>
+          <p class="text fw-bold m-0">John Mike</p>
+          <p class="text m-0">CEO, Author.Inc</p>
+        </div>
+        <div class="item client  text-center py-4 px-4">
+          <div class="client-img-container">
+            <img class="" src="./assets/client.jpg" alt="">
+          </div>
+          <p class="text my-4">"Absolutely wonderful! I'm completely blown away. The very best. I was amazed at the
+            quality.</p>
+          <p class="text fw-bold m-0">John Mike</p>
+          <p class="text m-0">CEO, Author.Inc</p>
+        </div>
+        <div class="item client  text-center py-4 px-4">
+          <div class="client-img-container">
+            <img class="" src="./assets/client.jpg" alt="">
+          </div>
+          <p class="text my-4">"Absolutely wonderful! I'm completely blown away. The very best. I was amazed at the
+            quality.</p>
+          <p class="text fw-bold m-0">John Mike</p>
+          <p class="text m-0">CEO, Author.Inc</p>
+        </div>
+        <div class="item client  text-center py-4 px-4">
+          <div class="client-img-container">
+            <img class="" src="./assets/client.jpg" alt="">
+          </div>
+          <p class="text my-4">"Absolutely wonderful! I'm completely blown away. The very best. I was amazed at the
+            quality.</p>
+          <p class="text fw-bold m-0">John Mike</p>
+          <p class="text m-0">CEO, Author.Inc</p>
+        </div>
+      </div>
+     
+
+    </section>
+
+    <section id="contactme">
+      <p class="h4 text-center mb-5">Contact me</p>
+      <div class="d-flex flex-wrap justify-content-center gap-4">
+        <div class="col-lg-3 col-12 contact-me cards text-center py-4 px-4">
+          <i class="fa-solid fa-location-arrow icon"></i>
+          <p class="text fw-bold m-0 address mt-4">Address</p>
+          <p class="text mt-3 mb-0">5th Avenue, 34th floor,</p>
+          <p class="text m-0">New York</p>
+        </div>
+        <div class="col-lg-3 col-12 contact-me cards text-center py-4 px-4">
+          <i class="fa-regular fa-envelope icon"></i>
+          <p class="text fw-bold m-0 address mt-4">Email</p>
+          <p class="text mt-3 mb-0">youremail@email.com</p>
+          <p class="text m-0">youremail@email.com</p>
+        </div>
+        <div class="col-lg-3 col-12 contact-me cards text-center py-4 px-4">
+          <i class="fa-solid fa-phone icon"></i>
+          <p class="text fw-bold m-0 address mt-4">Phone</p>
+          <p class="text mt-3 mb-0">(880)-8976-987</p>
+          <p class="text m-0">(880)-8976-987</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="form" class="fluid-container d-flex flex-wrap justify-content-around mb-5 px-4">
+      <div class="col-lg-5">
+        <form class="px-3">
+          <div class="d-flex justify-content-around mb-2">
+            <input class="py-2 px-2 me-2" type="text" placeholder="First Name">
+            <input class="py-2 px-2 " type="text" placeholder="Last Name">
+          </div>
+          <div class="col-12">
+            <input type="text" placeholder="Your Email" class="py-2 px-2 col-12">
+          </div>
+          <textarea placeholder="Your Message" rows="8" class="col-12 mt-2 px-2 py-2"></textarea>
+          <button class="green-bg text-white col-12 send-btn fw-bold py-1 mt-2">Send Message</button>
+        </form>
+      </div>
+      <div class=" col-12 col-lg-5 mt-2 mx-auto map">
+        <div class="gmap_canvas "><iframe width="400" height="300" id="gmap_canvas"
+            src="https://maps.google.com/maps?q=dattapara%20rd&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+            scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+            href="https://www.whatismyip-address.com/divi-discount/"></a><br>
+          <style>
+            .mapouter {
+              position: relative;
+              text-align: right;
+              height: 500px;
+              width: 600px;
+            }
+          </style><a href="https://www.embedgooglemap.net"></a>
+          <style>
+            .gmap_canvas {
+              overflow: hidden;
+              background: none !important;
+              height: 500px;
+              width: 600px;
+            }
+          </style>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="d-flex text color-dark-gray px-5 justify-content-around">
+    <p>All rights reserved 2018</p>
+    <div class="d-flex justify-content-around">
+      <i class="fa-brands fa-facebook-f me-3"></i>
+      <i class="fa-brands fa-twitter me-3"></i>
+      <i class="fa-brands fa-github me-3"></i>
+      <i class="fa-brands fa-dribbble"></i>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
